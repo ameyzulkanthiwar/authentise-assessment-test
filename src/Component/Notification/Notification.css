@@ -1,0 +1,8 @@
+.ant-alert.ant-alert-error.ant-alert-closable {
+    width: 230px;
+    left: 37%;
+    right: auto;
+    position: absolute;
+    top: 9px;
+    margin: 10px;
+}

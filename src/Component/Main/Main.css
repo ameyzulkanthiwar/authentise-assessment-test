@@ -1,0 +1,66 @@
+.card-and-container-display {
+    display: flex;
+}
+@media screen and (min-width: 600px) {
+    .main-class .search-container .ant-input-group-wrapper {
+        width: 50%;
+    }
+    .main-class .search-container {
+        display: flex;
+        justify-content: center;
+    }
+    .main-class .card-container {
+        display: flex;
+        justify-content: center;
+        width: 40%;
+        height: 75vh;
+        overflow: initial;
+        align-items: center;
+    }
+    .main-class .collection-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow-y: hidden;
+        justify-content: center;
+        width: 100%;
+        height: 100%;
+        margin-bottom: 16px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .main-class .search-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card-and-container-display {
+        display: flex;
+        flex-direction: column;
+    }
+    .main-class .card-container {
+        display: flex;
+        justify-content: center;
+        height: 50vh;
+    }
+    .main-class .collection-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        overflow-y: hidden;
+        justify-content: center;
+        height: auto;
+    }
+    .main-class .collection-container .dummy-div {
+        background-color: lightgray;
+        height: 22px;
+        width: 100%;
+    }
+}
+
+.main-class .search-container {
+    display: flex;
+    justify-content: center;
+    padding: 35px;
+    background-color: lightgrey;
+}

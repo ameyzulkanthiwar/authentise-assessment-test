@@ -1,0 +1,17 @@
+.ant-modal-footer {
+    display: none;
+}
+
+.main-class
+    .search-container
+    button.ant-btn.modal-button.ant-btn-primary {
+    margin: 0px 4px 0px 4px;
+}
+
+@media screen and (max-width: 600px) {
+    .main-class
+        .search-container
+        button.ant-btn.modal-button.ant-btn-primary {
+        margin: 8px;
+    }
+}

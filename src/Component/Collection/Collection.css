@@ -1,0 +1,17 @@
+.collection {
+    width: inherit;
+}
+
+.collection .collection-title {
+    width: 100%;
+    background-color: darkgrey;
+}
+
+.collection-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    width: 100%;
+    height: 60vh;
+}

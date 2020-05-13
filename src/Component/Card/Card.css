@@ -1,0 +1,11 @@
+.card {
+    margin: 8px;
+}
+
+.card .ant-card .ant-card-cover img {
+    height: 230px;
+}
+
+.card .card-handle-onclick {
+    margin: 4px;
+}
